@@ -1,0 +1,40 @@
+# ============================================================
+# Explainable Crop Yield Prediction — Requirements
+# Install in the order listed to avoid dependency conflicts.
+# Python 3.11+ recommended; tested on 3.11/3.12.
+# If on Python 3.14, use fallback versions noted in comments.
+# ============================================================
+
+# --- Data ---
+pandas==2.2.3
+pyarrow==17.0.0
+requests==2.32.3
+
+# --- ML ---
+scikit-learn==1.5.2
+xgboost==2.1.3
+lightgbm==4.5.0          # fallback: lightgbm==4.4.0 for Python 3.14
+# torch==2.10.0           # already installed (CPU build); uncomment if missing
+
+# --- Explainability ---
+shap==0.46.0              # must be 0.46+ for XGBoost 2.x compatibility
+
+# --- Geospatial ---
+folium==0.17.0
+branca==0.8.0
+
+# --- Visualization ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Notebook ---
+jupyter==1.1.1
+notebook==7.2.2
+ipywidgets==8.1.5
+
+# --- Benchmarking ---
+memory-profiler==0.61.0
+
+# --- AWS ---
+boto3==1.35.36
+sagemaker==2.232.2        # fallback: sagemaker==2.228.0 for Python 3.14

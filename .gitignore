@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large raw/processed data not tracked in git)
+data/raw/
+data/processed/
+data/geo/
+
+# Model binaries (large files)
+models/*.pth
+models/*.json
+models/*.txt
+models/*.pkl
+
+# SageMaker artifacts
+sagemaker/model.tar.gz
+
+# Outputs (generated at runtime)
+outputs/plots/
+outputs/maps/
+outputs/metrics/
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+aws_credentials*
+deploy_config.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.log
+gh_cli*
