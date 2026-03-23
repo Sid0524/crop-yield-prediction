@@ -27,9 +27,9 @@ End-to-end ML pipeline that predicts farm-scale crop yields globally, explains p
 
 | Model | RMSE (kg/ha) | R² | MAE (kg/ha) | Train Time |
 |---|---|---|---|---|
-| **XGBoost** | ~11,600 | **0.847** | ~5,600 | ~45s (GPU) |
-| **LightGBM** | ~11,800 | 0.842 | ~5,700 | ~15s (GPU) |
-| **PyTorch MLP** | ~12,400 | 0.824 | ~5,900 | ~90s (GPU) |
+| **XGBoost** | 11,631 | **0.8462** | 5,627 | 3.6s (GPU) |
+| **LightGBM** | 11,783 | 0.8422 | 5,692 | 14.9s (GPU) |
+| **PyTorch MLP** | 13,114 | 0.8045 | 6,402 | 152s (GPU) |
 
 > Note: High absolute RMSE is expected — the dataset spans 10 crops with yields ranging from ~2,500 kg/ha (barley) to ~65,000 kg/ha (sugar cane). R² > 0.84 across all models on unseen years (2019-2022) confirms strong generalisation.
 

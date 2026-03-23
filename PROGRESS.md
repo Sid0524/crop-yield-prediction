@@ -79,9 +79,9 @@
 
 | Model | RMSE (kg/ha) | R² | MAE (kg/ha) |
 |---|---|---|---|
-| XGBoost | ~11,600 | ~0.847 | ~5,600 |
-| LightGBM | 11,788 | 0.842 | 5,691 |
-| PyTorch MLP | TBD | TBD | TBD |
+| XGBoost | 11,631 | 0.8462 | 5,627 |
+| LightGBM | 11,783 | 0.8422 | 5,692 |
+| PyTorch MLP | 13,114 | 0.8045 | 6,402 |
 
 ---
 
